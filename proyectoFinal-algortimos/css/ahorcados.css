@@ -1,0 +1,164 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #0f08d9;
+    color: #5905d756;
+    padding: 10px 0;
+  }
+ 
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #500079;
+  }
+
+  .navbar ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 20px;
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 5px 5px;
+      padding-top: 20px;  
+      border-right: 0px solid rgb(13, 0, 255);
+  }
+
+  .navbar ul li:last-child {
+    margin-right: 0;
+    border-right: none;
+  }
+
+  .navbar ul li a {
+    color: #f1f0f0;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .navbar ul li a:hover {
+    border-bottom-color: black; 
+  }
+
+  .retro-icon img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+ 
+  /* cuerpo de pagina */
+  
+  body{
+    background-color: #1c0129;
+    color: #f1f0f0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .contenedor{
+    display: flex;
+    margin-left: 100px;
+    margin-left: 100px;
+  }
+
+   .imagen img{
+    width: 400px;
+    height: 500px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-top: 50px;
+
+  }
+
+  .imagen {
+    background-color: rgb(69, 0, 142);
+    margin-left: 200px;
+  } 
+
+
+
+  .card{
+    background-color: rgb(69, 0, 142);
+    width: 450px;
+    height: 600px;
+   margin-left: 80px;
+  
+  }
+ 
+  .card h2{
+      color:white;
+      margin-left: 40px;
+      margin-top: 40px;
+      margin-right: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+
+  }
+
+  .card p{
+    color:white;
+    margin: 10px 50px 30px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .card input{
+    color:#1c0129;
+    margin: 10px 10px 30px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+
+  .card button{
+    color:white;
+    background-color: #1c0129;
+    margin-left: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+   
+  h1{
+    margin-left: 550px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+  }
+  .ganaste {
+    background-color: #1c0129;
+    color: rgb(246, 254, 246); /* Cambia el color del texto a verde */
+    font-size: 40px; /* Cambia el tamaño de la fuente a 24 píxeles */
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 90px;
+    padding: 60px;
+    padding-left: 10px;
+    
+}
+
+  .sspam{
+    font-size: 25px;
+    color: white;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .tiempo{
+    color:white;
+    background-color: #1c0129;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
